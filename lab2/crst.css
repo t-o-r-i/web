@@ -40,7 +40,7 @@ body {
     margin: 4;
 }
 
-.character-title {
+.chara-title {
     font-family: 'Poiret One', cursive;
     font-size: 43pt;
     margin-top: 3%;
@@ -48,7 +48,7 @@ body {
     margin-bottom: 3%;
 }
 
-.character-container {
+.chara-container {
     width: 100%;
     top:0;
     left:0;
@@ -95,4 +95,19 @@ body {
 .chara-parameter {
     margin: 7%;
     margin-left: 15%;
+}
+
+.chara-container__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.chara-container__right__img {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10%;
+    margin: 2%;
 }
