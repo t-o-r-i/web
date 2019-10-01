@@ -2,45 +2,6 @@ body {
     margin: 0;
 }
 
-.header-container {
-    background-color: #E1E2E3;
-    border-bottom: 1px solid black;
-    width: 100%;
-    height: 135px;
-    top:0;
-    left:0;
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 50% 50%;
-}
-
-.header-container__left {
-    margin: 0;
-    margin-left: 10%;
-    font-size: 55;
-    font-family: 'Federo', sans-serif;
-    vertical-align: middle;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-}
-
-.header-container__right {
-    margin: 0;
-    margin-right: 10%;
-    font-size: 20pt;
-    font-family: 'Poiret One', cursive;
-    font-style: inherit;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    flex-direction: column;
-}
-
-.header-container__right > p {
-    margin: 4;
-}
 
 .chara-title {
     font-family: 'Poiret One', cursive;

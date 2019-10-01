@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+.title-container {
+    width: 100%;
+    top:0;
+    left:0;
+    font-family: 'Poiret One', cursive;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 85% 15%;
+}
+
+.title-container__chara-name {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36pt
+}
+
+.title-container__back {
+    margin-top: 0;
+    border-left: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21pt
+}
+
+.chara-portfolio {
+    width: 100%;
+    top:0;
+    left:0;
+    font-family: 'Poiret One', cursive;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 65% 35%;
+}
+
+.chara-portfolio__portrait {
+    margin-left: 20%;
+    margin-top: 5%;
+    width: 380px;
+    border: 1px solid black;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
