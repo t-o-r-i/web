@@ -27,9 +27,9 @@ body {
 }
 
 .header-container__center {
-    margin-left: 40%;
-    margin-top: 7%;
-    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-container__right {
