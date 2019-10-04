@@ -1,0 +1,48 @@
+.menu-container {
+    width: 100%;
+    top:0;
+    left:0;
+    font-family: 'Poiret One', cursive;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 10% 25% 25% 25% 15%;
+}
+
+.menu-container__back {
+    margin-top: 5;
+    border-left: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21pt;
+}
+
+.menu-container__filters__magnifier {
+    width: 17px;
+}
+
+.menu-container__filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21pt;
+}
+
+.menu-container__filters__arrow {
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+.stories-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 7%;
+}
+
+.sories-container__img {
+    margin: 3%;
+    border: 1px solid black;
+    border-radius: 10%;
+}

@@ -149,8 +149,7 @@ body {
 }
 
 .story-container__left__img {
-    height: 120px;
-    width: 680px;
+    width: 700px;
     border: 1px solid black;
     border-radius: 7%;
     margin: 3%;
